@@ -578,8 +578,6 @@ main()
         #获取第一个参数
         key="$1"
 
-        echo "======"$key"======="
-
         case $key in
             update-kernel)
                 export COMMAND="update-kernel"
